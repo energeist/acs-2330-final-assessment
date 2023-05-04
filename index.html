@@ -10,25 +10,25 @@
 <body>
 	<article class="container">
 		<main>
-			<form class="sliders">
+			<form class="sliders" role="application">
 				<label>
-					<span class="sliderLabel">Hue Rotate</span>
-					<input id="hue" type="range" min="0" max="360" value="0" />
+					<span class="sliderLabel" id="hue-label">Hue Rotate</span>
+					<input id="hue" type="range" min="0" max="360" value="0" aria-labelledby="hue-label"/>
 				</label>
 				
 				<label>
-					<span class="sliderLabel">Blur</span>
-					<input id="blur" type="range" min="0" max="40" value="0" />
+					<span class="sliderLabel" id="blur-label">Blur</span>
+					<input id="blur" type="range" min="0" max="40" value="0" aria-labelledby="blur-label"/>
 				</label>
 
 				<label>
-					<span class="sliderLabel">Contrast</span>
-					<input id="contrast" type="range" min="0" max="400" value="50" />
+					<span class="sliderLabel" id="contrast-label">Contrast</span>
+					<input id="contrast" type="range" min="0" max="400" value="50" aria-labelledby="contrast-label"/>
 				</label>
 
 				<label>
-					<span class="sliderLabel">Saturation</span>
-					<input id="saturation" type="range" min="0" max="200" value="100" />
+					<span class="sliderLabel" id="saturation-label">Saturation</span>
+					<input id="saturation" type="range" min="0" max="200" value="100" aria-labelledby="saturation-label"/>
 				</label>
 			</form>
 			<figure>
