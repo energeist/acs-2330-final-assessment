@@ -10,6 +10,7 @@
   flex-direction: row;
   border: 2px solid black;
   margin: auto;
+  max-width: 800px;
 }
 
 .sliders {
