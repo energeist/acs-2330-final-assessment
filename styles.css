@@ -5,12 +5,22 @@
   height: 100vh;
 }
 
-.container > div {
+.container > main {
   display: flex;
   flex-direction: row;
   border: 2px solid black;
   margin: auto;
   max-width: 800px;
+}
+
+figure {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .sliders {

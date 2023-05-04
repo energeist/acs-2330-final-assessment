@@ -8,8 +8,8 @@
 	<title>Final Assessment</title>
 </head>
 <body>
-	<div class="container">
-		<div>
+	<article class="container">
+		<main>
 			<form class="sliders">
 				<label>
 					<span class="sliderLabel">Hue Rotate</span>
@@ -31,9 +31,11 @@
 					<input id="saturation" type="range" min="0" max="200" value="100" />
 				</label>
 			</form>
-			<img src="./dali.png" width="400" height="400"/>
-		</div>
-	</div>
+			<figure>
+				<img src="./dali.png" width="400" height="400" alt="A painting by Salvidor Dali"/>
+			</figure>
+		</main>
+	</article>
 
 	<script>
 		const img = document.querySelector('img')
