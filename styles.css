@@ -46,6 +46,72 @@ label {
 input {
   width: 100%;
 }
-/* img {
 
-} */
+@media (max-width: 800px) {
+
+  body {
+    margin: 0;
+  }
+  .container > main {
+    flex-direction: column-reverse;
+    margin: none;
+    height: 100vh;
+    justify-content: flex-end;
+  }
+  
+  .sliders {
+    padding: 0;
+    min-width: 75%;
+    border-right: none;
+  }
+
+  label {
+    flex-direction: row;
+  }
+
+  .sliderLabel {
+    min-width: 25%;
+    align-self: center;
+    text-align: end;
+    margin-right: 20px;
+  }
+
+  form {
+    border-top: 2px solid black;
+    height: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  img {
+    width: 100vw;
+    border-bottom: 2px solid black
+  }
+  
+  .container > main {
+    flex-direction: column-reverse;
+    border: none;
+  }
+  
+  .sliders {
+    padding: 0;
+    min-width: 75%;
+    border-right: none;
+  }
+
+  /* label {
+    flex-direction: row;
+  } */
+
+  .sliderLabel {
+    min-width: 25%;
+    align-self: center;
+    text-align: end;
+    margin-right: 20px;
+  }
+
+  form {
+    border: none;
+    height: 100%;
+  }
+}
